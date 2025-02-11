@@ -1,0 +1,64 @@
+body {
+    background-color: #d8cbc7;
+}
+
+.nameImgNav {
+    justify-self: center;
+}
+
+.nameImgNav h1 {
+    padding-top: 30px;
+    padding-right: 11px;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    color: #a5402d;
+    font-size: 38px;
+}
+
+#headShot {
+    height: 380px;
+    padding-top: 46px;
+    padding-left: 81px;
+}
+
+.linksAndImgs {
+    justify-self: center;
+    padding-top: 46px;
+    padding-right: 28px;
+}
+
+.linksAndImgs img {
+    height: 40px;
+}
+
+.whoAmI h2 {
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    color: #a5402d;
+    padding-left: 220px;
+    padding-top: 64px;
+    font-size: 32px;
+}
+
+.aboutMe {
+    position: relative;
+}
+
+#booksOnAWindow {
+    position: absolute;
+    height: 397px;
+    right: 257px;
+    padding-top: 101px;
+}
+
+#booksAndPoes {
+    position: absolute;
+    bottom: -319px;
+    left: 196px;
+    font-size: 18px;
+}
+
+#credits {
+    position: absolute;
+    bottom: -534px;
+    left: 1009px;
+    font-size: 12px;
+}
