@@ -105,3 +105,28 @@ body {
     bottom: -1508px;
     left: 853px;
 }
+
+.aboutMe4 {
+    position: relative;
+}
+
+#currIn {
+    position: absolute;
+    bottom: -1942px;
+    left: 876px;
+    font-size: 18px;
+}
+
+#dataSci {
+    position: absolute;
+    height: 306px;
+    bottom: -2048px;
+    left: 225px;
+}
+
+#lukeCred {
+    position: absolute;
+    bottom: -2083px;
+    font-size: 13px;
+    left: 238px;
+}
