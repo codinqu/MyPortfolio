@@ -87,3 +87,21 @@ body {
     font-size: 12px;
     left: 239px;
 }
+
+.aboutMe3 {
+    position: relative;
+}
+
+#piano {
+    position: absolute;
+    bottom: -1378px;
+    left: 190px;
+    font-size: 18px;
+}
+
+#pianoKeys {
+    position: absolute;
+    height: 293px;
+    bottom: -1508px;
+    left: 853px;
+}
