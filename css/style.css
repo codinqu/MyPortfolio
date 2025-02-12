@@ -130,3 +130,28 @@ body {
     font-size: 13px;
     left: 238px;
 }
+
+.aboutMe5 {
+    position: relative;
+}
+
+#flowers {
+    position: absolute;
+    bottom: -2475px;
+    left: 198px;
+    font-size: 18px;
+}
+
+#foxGlove {
+    position: absolute;
+    height: 429px;
+    bottom: -2671px;
+    left: 948px;
+}
+
+#annCred {
+    position: absolute;
+    bottom: -2704px;
+    left: 1040px;
+    font-size: 13px;
+}
