@@ -155,3 +155,20 @@ body {
     left: 1040px;
     font-size: 13px;
 }
+
+.endOfPage {
+    position: relative;
+}
+
+.endPage {
+    position: absolute;
+    bottom: -2823px;
+    justify-self: anchor-center;
+}
+#git {
+    height: 40px;
+}
+
+#link {
+    height: 40px;
+}
