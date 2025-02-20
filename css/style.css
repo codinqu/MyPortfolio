@@ -10,8 +10,10 @@ body {
     padding-top: 30px;
     padding-right: 11px;
     font-family: "Atkinson Hyperlegible Mono", serif;
-    color: #a5402d;
+    color: #50a290;
     font-size: 38px;
+    text-shadow: 3px 3px #eca33c;
+    animation: glitch 0.4s infinite;
 }
 
 #headShot {
@@ -32,10 +34,12 @@ body {
 
 .whoAmI h2 {
     font-family: "Atkinson Hyperlegible Mono", serif;
-    color: #a5402d;
+    color:#469886;;
     padding-left: 220px;
     padding-top: 64px;
     font-size: 32px;
+    text-shadow: 3px 3px #53dfc0;
+    animation: bounce 2s ease infinite;
 }
 
 .aboutMe {
@@ -172,3 +176,36 @@ body {
 #link {
     height: 40px;
 }
+
+@keyframes glitch {
+    0% {
+      text-shadow: 1px 1px 0 #fff, -1px -1px 0 rgb(235, 19, 94);
+      transform: skew(0deg);
+    }
+    50% {
+      text-shadow: 2px 2px 0 #fff, -2px -2px 0 rgb(221, 164, 40);
+      transform: skew(-5deg);
+    }
+    100% {
+      text-shadow: 1px 1px 0 #fff, -1px -1px 0 rgb(255, 0, 183);
+      transform: skew(0deg);
+    }
+  }
+
+  @keyframes bounce {
+    0%, 20%, 40%, 60%, 80%, 100% {
+      transform: translateY(0);
+    }
+    30% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    70% {
+      transform: translateY(-5px);
+    }
+    90% {
+      transform: translateY(2px);
+    }
+  }
