@@ -1,211 +1,135 @@
-body {
-    background-color: #d8cbc7;
+
+#bodyPage {
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 
-.nameImgNav {
-    justify-self: center;
+.navigation {
+    background-color: #e3d9d94a;
+    margin-top: -19px;
+    margin-bottom: -44px;
 }
 
-.nameImgNav h1 {
-    padding-top: 30px;
-    padding-right: 11px;
-    font-family: "Atkinson Hyperlegible Mono", serif;
-    color: #50a290;
-    font-size: 38px;
-    text-shadow: 3px 3px #eca33c;
-    animation: glitch 0.4s infinite;
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    padding-top: 37px;
+    padding-bottom: 46px;
 }
 
-#headShot {
-    height: 380px;
-    padding-top: 46px;
-    padding-left: 81px;
+.navBar li {
+    color: darkslategrey;
+    font-family: fangsong;
 }
 
-.linksAndImgs {
-    justify-self: center;
-    padding-top: 46px;
-    padding-right: 28px;
+.navBar a {
+    color: inherit;
 }
 
-.linksAndImgs img {
-    height: 40px;
-}
-
-.whoAmI h2 {
-    font-family: "Atkinson Hyperlegible Mono", serif;
-    color:#469886;;
-    padding-left: 220px;
-    padding-top: 64px;
-    font-size: 32px;
-    text-shadow: 3px 3px #53dfc0;
-    animation: bounce 2s ease infinite;
-}
-
-.aboutMe {
+.greetingsContain {
+    display: flex;
     position: relative;
 }
 
-#booksOnAWindow {
-    position: absolute;
-    height: 397px;
-    right: 257px;
-    padding-top: 101px;
+.headerImage {
+    padding-top: 13px;
+    padding-left: 128px;
 }
 
-#booksAndPoes {
-    position: absolute;
-    bottom: -319px;
-    left: 196px;
-    font-size: 18px;
+#headerImg {
+    height: 289px;
+    border: 7px solid rgb(55, 55, 55);
 }
 
-#credits {
+#hiThere {
+    background-color: #53666682;
     position: absolute;
-    bottom: -534px;
-    left: 1009px;
-    font-size: 12px;
+    left: 489px;
+    bottom: -20px;
 }
 
-.aboutMe2 {
+.helloWorld {
+    padding-left: 173px;
+    padding-top: 70px;
+}
+
+.helloWorld h1 {
+    font-family: "Quintessential", serif;
+    font-size: 42px;
+    color: #c6c7c8;
+    margin-left: -86px;
+}
+
+.helloWorld p {
+    font-family: fangsong;
+    padding-top: 24px;
+    font-size: 19px;
+    color: #c6c7c8;
+    margin-left: 9px;
+}
+
+.peacockContain {
     position: relative;
 }
 
-#raven {
+.hera img {
+    height: 420px;
     position: absolute;
-    bottom: -906px;
-    left: 844px;
-    font-size: 18px;
+    right: 66px;
+    top: -161px;
 }
 
-#ravenPortrait {
-    position: absolute;
-    height: 286px;
-    bottom: -1000px;
-    left: 228px;
+.imageCaro {
+    padding-top: 108px;
 }
 
-#michCred {
-    position: absolute;
-    bottom: -1032px;
-    font-size: 12px;
-    left: 239px;
-}
-
-.aboutMe3 {
-    position: relative;
-}
-
-#piano {
-    position: absolute;
-    bottom: -1378px;
-    left: 190px;
-    font-size: 18px;
-}
-
-#pianoKeys {
-    position: absolute;
-    height: 293px;
-    bottom: -1508px;
-    left: 853px;
-}
-
-.aboutMe4 {
-    position: relative;
-}
-
-#currIn {
-    position: absolute;
-    bottom: -1942px;
-    left: 876px;
-    font-size: 18px;
-}
-
-#dataSci {
-    position: absolute;
-    height: 306px;
-    bottom: -2048px;
-    left: 225px;
-}
-
-#lukeCred {
-    position: absolute;
-    bottom: -2083px;
-    font-size: 13px;
-    left: 238px;
-}
-
-.aboutMe5 {
-    position: relative;
-}
-
-#flowers {
-    position: absolute;
-    bottom: -2475px;
-    left: 198px;
-    font-size: 18px;
-}
-
-#foxGlove {
-    position: absolute;
-    height: 429px;
-    bottom: -2671px;
-    left: 948px;
-}
-
-#annCred {
-    position: absolute;
-    bottom: -2704px;
-    left: 1040px;
-    font-size: 13px;
-}
-
-.endOfPage {
-    position: relative;
-}
-
-.endPage {
-    position: absolute;
-    bottom: -2823px;
-    justify-self: anchor-center;
-}
-#git {
-    height: 40px;
-}
-
-#link {
-    height: 40px;
-}
-
-@keyframes glitch {
-    0% {
-      text-shadow: 1px 1px 0 #fff, -1px -1px 0 rgb(235, 19, 94);
-      transform: skew(0deg);
-    }
-    50% {
-      text-shadow: 2px 2px 0 #fff, -2px -2px 0 rgb(221, 164, 40);
-      transform: skew(-5deg);
-    }
-    100% {
-      text-shadow: 1px 1px 0 #fff, -1px -1px 0 rgb(255, 0, 183);
-      transform: skew(0deg);
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-
-  @keyframes bounce {
-    0%, 20%, 40%, 60%, 80%, 100% {
-      transform: translateY(0);
-    }
-    30% {
-      transform: translateY(-10px);
-    }
-    50% {
-      transform: translateY(5px);
-    }
-    70% {
-      transform: translateY(-5px);
-    }
-    90% {
-      transform: translateY(2px);
-    }
+  
+  .carousel {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .carousel-images {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-images img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
   }

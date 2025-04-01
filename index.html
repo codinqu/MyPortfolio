@@ -3,101 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Caveat:wght@400..700&family=Quicksand:wght@300..700&family=Quintessential&family=Tsukimi+Rounded&display=swap" rel="stylesheet">
     <title>Hello There!</title>
 </head>
-<body>
-    <header>
-        <div class="container portImgAndNav">
-            <div class="row">
-                <div class="nameImgNav">
-                    <h1>Hello, I'm Bianca!</h1>
-                    <img src="./imgs/portfolioHeadImg.jpg" alt="portraitOfMe" id="headShot">
-                </div>
+<body id="bodyPage">
+<header>
+    <div class="container navigation">
+        <div class="row">
+            <div class="navBar">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Projects</a></li>
+                </ul>
             </div>
         </div>
-        <div class="container imgLinks">
-            <div class="row">
-                <div class="linksAndImgs">
-                    <a href="https://github.com/codinqu">
-                        <img src="https://www.pngall.com/wp-content/uploads/13/Github-Logo.png" alt="Github-Logo">
-                    </a>
-                    <a href="https://www.linkedin.com/in/bianca-mckinley-91635b1b8/">
-                        <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png" alt="Linkedin-Logo">
-                    </a>
-                </div>
-            </div>
+    </div>
+<div class="container greetingsContain">
+    <div class="row">
+        <div class="headerImage">
+            <img src="./imgs/portfolioHeadImg.jpg" alt="headPortImg" id="headerImg" class="img-fluid rounded-circle mb-3" style="max-width: 300px;">
         </div>
-    </header>
-    <main>
-        <div class="container whoTitle">
-            <div class="row">
-                <div class="whoAmI">
-                    <h2>A Little Info About Me</h2>
-                </div>
-            </div>
+    </div>
+    <div class="row">
+        <div class="helloWorld" id="hiThere">
+            <h1>Hello world, I'm Bianca!</h1>
+            <p>Welcome to my portfolio!</p>
         </div>
-        <div class="container aboutMe">
-            <div class="row">
-                <div class="about">
-                    <p id="booksAndPoes">I like to read books about philosophy and wellness. I also enjoy writing poetry.</p>
-                    <img src="./imgs/ioann-mark-kuznietsov-P6uqpNyXcI4-unsplash.jpg" alt="books by a window" id="booksOnAWindow">
-                    <p id="credits">Photo by Ioann-Mark Kuznietsov on Unsplash</p>
-                </div>
-            </div>
+    </div>
+</div>
+<div class="container peacockContain">
+    <div class="row">
+        <div class="hera">
+            <img src="./imgs/peacock.png" alt="peacock">
         </div>
-        <div class="container aboutMe2">
-            <div class="row">
-                <div class="aboutTwo">
-                    <p id="raven">I love corvids. Especially ravens and crows.</p>
-                    <img src="./imgs/michael-jerrard--RoncQF8ZCk-unsplash.jpg" alt="raven with orange backdrop" id="ravenPortrait">
-                    <p id="michCred">Photo by Michael Jerrard on Unsplash</p>
-                </div>
+    </div>
+</div>
+</header>
+<main>
+<div class="container imageCaro">
+    <div class="row">
+        <div class="carousel">
+            <div class="carousel-images">
+              <img src="./imgs/lily.jpg" alt="whiteLilies">
+              <img src="./imgs/piano.jpg" alt="piano">
+              <img src="./imgs/corvid.jpg" alt="corvid">
+              <img src="./imgs/chess.jpg" alt="chessBoard">
+              <img src="./imgs/dnddice.jpg" alt="dndDice">
+              <img src="./imgs/ocean.jpg" alt="ocean">
             </div>
-        </div>
-        <div class="container aboutMe3">
-            <div class="row">
-                <div class="aboutThree">
-                    <p id="piano">I indulge in the arts. They bring a different perspective to the mundane life.</p>
-                    <img src="./imgs/myPiano.jpg" alt="hand on piano keys" id="pianoKeys">
-                </div>
-            </div>
-        </div>
-        <div class="container aboutMe4">
-            <div class="row">
-                <div class="aboutFour">
-                    <p id="currIn">My current area of interest is in data science.</p>
-                    <img src="./imgs/luke-chesser-JKUTrJ4vK00-unsplash.jpg" alt="computer with graphs" id="dataSci">
-                    <p id="lukeCred">Photo by Luke Chesser on Unsplash</p>
-                </div>
-            </div>
-        </div>
-        <div class="container aboutMe5">
-            <div class="row">
-                <div class="aboutFive">
-                    <p id="flowers">I enjoy learning about poisonous flowers. Foxglove is one of my favorite.</p>
-                    <img src="./imgs/annie-spratt-kYSyc8XVCRw-unsplash.jpg" alt="pink foxglove in a field" id="foxGlove">
-                    <p id="annCred">Photo by Annie Spratt on Unsplash</p>
-                </div>
-            </div>
-        </div>
-    </main>
-    <footer>
-        <div class="container endOfPage">
-            <div class="row">
-                <div class="endPage">
-                    <a href="https://github.com/codinqu">
-                        <img src="https://www.pngall.com/wp-content/uploads/13/Github-Logo.png" alt="Github-Logo" id="git">
-                    </a>
-                    <a href="https://www.linkedin.com/in/bianca-mckinley-91635b1b8/">
-                        <img src="https://sguru.org/wp-content/uploads/2018/02/linkedin-png-linkedin-icon-1600.png" alt="Linkedin-Logo" id="link">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </footer>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+          </div>
+    </div>
+</div>
+</main>
+<footer>
+
+</footer>
 </body>
+<script type="text/javascript" src="script.js"></script>
 </html>
