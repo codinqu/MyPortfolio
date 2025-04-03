@@ -27,10 +27,54 @@
     color: inherit;
 }
 
+.pop-link:hover {
+    transform: scale(1.2); /* Makes the text grow */
+    color: #d9dcdfef; /* Changes the text color on hover */
+}
+
+/* Optional: Adding a pseudo-element for a cool effect */
+.pop-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #007BFF;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.pop-link:hover::after {
+    transform: scaleX(1); /* Creates an underline effect */
+}
+
 .greetingsContain {
     display: flex;
     position: relative;
 }
+
+.socials img {
+    padding-left: 185px;
+}
+
+#gitHub {
+    height: 43px;
+    animation: swing 4s infinite ease-in-out;
+}
+
+#linkedIn {
+    height: 52px;
+    padding-left: 29px;
+    animation: swing 3s infinite ease-in-out;
+}
+
+@keyframes swing {
+    0%, 100% { transform: rotate(-10deg); }
+    20% {transform:scale(.95);}
+    50% { transform: rotate(10deg); }
+    80% {transform:scale(.95);}
+  }
 
 .headerImage {
     padding-top: 13px;
@@ -59,6 +103,11 @@
     font-size: 42px;
     color: #c6c7c8;
     margin-left: -86px;
+    transition: color 0.5s ease;
+}
+
+.helloWorld h1:hover {
+    color: rgb(57, 49, 93);
 }
 
 .helloWorld p {
