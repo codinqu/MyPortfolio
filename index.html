@@ -16,13 +16,15 @@
         <div class="row">
             <div class="navBar">
                 <ul>
-                    <li><a href="" class="pop-link">About</a></li>
-                    <li><a href="" class="pop-link">Contact</a></li>
-                    <li><a href="" class="pop-link">Projects</a></li>
+                    <li><a href="#sectionOne" class="pop-link">About</a></li>
+                    <li><a href="#sectionTwo" class="pop-link">Contact</a></li>
+                    <li><a href="#sectionThree" class="pop-link">Projects</a></li>
                 </ul>
             </div>
         </div>
     </div>
+</header>
+<main>
 <div class="container greetingsContain">
     <div class="row">
         <div class="headerImage">
@@ -49,8 +51,15 @@
         </div>
     </div>
 </div>
-</header>
-<main>
+<div class="container getToKnow">
+    <div class="row">
+        <div class="aboutMe">
+            <section id="sectionOne">
+                <h1>Get To Know Me In Images!</h1>
+            </section>
+        </div>
+    </div>
+</div>
 <div class="container imageCaro">
     <div class="row">
         <div class="carousel">
@@ -67,9 +76,57 @@
           </div>
     </div>
 </div>
+<div class="container getInTouch">
+    <div class="row">
+        <div class="contactMe">
+            <section id="sectionTwo">
+                <h2>Contact Me</h2>
+        <form action="your-backend-script.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
+            
+            <input type="submit" value="Send Message">
+        </form>
+            </section>
+        </div>
+    </div>
+</div>
+<div class="container checkOut">
+    <div class="row">
+        <div class="myProjects">
+            <section id="sectionThree">
+                <h1>Check Out My Projects!</h1>
+            <a href="https://github.com/codinqu/Bloom-Landing-Page/tree/main">
+                <img src="./imgs/bloom.png" alt="Bloom-Landing-Page">
+            </a>
+            <a href="https://github.com/codinqu/Prechu-Project">
+                <img src="./imgs/prechu.png" alt="prechu-template">
+            </a>
+            <a href="https://github.com/codinqu/detroix-bianca2">
+                <img src="./imgs/detroix.png" alt="detroix-template">
+            </a>
+            <a href="https://github.com/codinqu/Bianca-Airbox2">
+                <img src="./imgs/airbox.png" alt="airbox-template">
+            </a>
+            </section>
+        </div>
+    </div>
+</div>
 </main>
 <footer>
-
+    <div class="container footerContain">
+        <div class="row">
+            <div class="thankYou">
+                <p>Thanks for popping by!</p>
+            </div>
+        </div>
+    </div>
 </footer>
 </body>
 <script type="text/javascript" src="script.js"></script>

@@ -3,6 +3,10 @@
     background-image: linear-gradient(to right, #DECBA4, #3E5151);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navigation {
     background-color: #e3d9d94a;
     margin-top: -19px;
@@ -101,13 +105,13 @@
 .helloWorld h1 {
     font-family: "Quintessential", serif;
     font-size: 42px;
-    color: #c6c7c8;
+    color: rgb(57, 49, 93);
     margin-left: -86px;
     transition: color 0.5s ease;
 }
 
 .helloWorld h1:hover {
-    color: rgb(57, 49, 93);
+    color: #c6c7c8;
 }
 
 .helloWorld p {
@@ -129,8 +133,16 @@
     top: -161px;
 }
 
+.aboutMe h1 {
+    font-family: "Quintessential", serif;
+    font-size: 33px;
+    color: #326453f0;
+    padding-top: 126px;
+    padding-left: 74px;
+}
+
 .imageCaro {
-    padding-top: 108px;
+    padding-top: 70px;
 }
 
 * {
@@ -182,3 +194,70 @@
   .next {
     right: 10px;
   }
+
+  .getInTouch {
+    padding-top: 93px;
+  }
+
+  .contactMe {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contactMe h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+label {
+    font-weight: bold;
+}
+
+.myProjects h1 {
+    font-family: "Quintessential", serif;
+    font-size: 35px;
+    color: #326453f0;
+    padding-top: 77px;
+    padding-bottom: 48px;
+    padding-left: 74px;
+}
+
+.myProjects img {
+    height: 216px;
+    padding: 7px;
+}
+
+.thankYou {
+    padding-top: 86px;
+}
+
+.thankYou p {
+    font-size: 23px;
+    font-family: fangsong;
+    color: #fffff0f5;
+    text-align: center;
+}
