@@ -47,16 +47,16 @@ html {
 
 #gitHub {
     height: 43px;
-    animation: swing 4s infinite ease-in-out;
+    animation: rock 5s infinite ease-in-out;
 }
 
 #linkedIn {
     height: 52px;
     padding-left: 29px;
-    animation: swing 3s infinite ease-in-out;
+    animation: rock 3s infinite ease-in-out;
 }
 
-@keyframes swing {
+@keyframes rock {
     0%, 100% { transform: rotate(-10deg); }
     20% {transform:scale(.95);}
     50% { transform: rotate(10deg); }
@@ -120,7 +120,7 @@ html {
     font-family: "Quintessential", serif;
     font-size: 33px;
     color: #326453f0;
-    padding-top: 126px;
+    padding-top: 145px;
     padding-left: 74px;
 }
 
@@ -176,6 +176,22 @@ html {
   
   .next {
     right: 10px;
+  }
+
+  .littleBit h1 {
+    font-family: "Quintessential", serif;
+    font-size: 32px;
+    color: #3E5151;
+    padding-left: 72px;
+    padding-top: 71px;
+  }
+
+  .littleBit p {
+    font-size: 20px;
+    font-family: fangsong;
+    color: #27271be0;
+    padding-left: 71px;
+    padding-top: 42px;
   }
 
   .getInTouch {
